@@ -17,7 +17,8 @@
         <h1>Livewire Crash Course</h1>
 
         <livewire:counter />
-
+        
+        <script type="text/javascript" src="{{ asset('vendor/livewire/livewire.js') }}"></script>
         @livewireScripts
     </body>
 </html>
