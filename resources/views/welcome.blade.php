@@ -15,9 +15,6 @@
         <!-- Styles -->
         @livewireStyles
 
-        <!-- AlpineJs -->
-        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
     </head>
     <body class="">
         <h1>Livewire Crash Course</h1>
@@ -32,7 +29,11 @@
 
         <livewire:counter />
         
+
         <script type="text/javascript" src="{{ asset('vendor/livewire/livewire.js') }}"></script>
         @livewireScripts
+        
+        <!-- AlpineJs and Main JS -->
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
